@@ -1,6 +1,6 @@
 ---
 title: License Zero
-description: turnkey as-a-service back-end for public-private licensing of software
+description: public-private software licensing as a service
 homepage: https://licensezero.com
 tags: [software, licensing, business]
 ---
