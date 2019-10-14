@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang=en>
+  <head>
+    <meta charset=utf-8>
+    {% if page.title %}
+    <title>{{site.title}} / {{page.title}}</title>
+    {% else %}
+    <title>{{site.title}}</title>
+    {% endif %}
+    <link rel=stylesheet href=https://readable.kemitchell.com/all.css type=text/css>
+  </head>
+  <body>
+    <header>
+      <h1>{{site.title | smartify}}</h1>
+      <p class=siteDescription>{{site.description | smartify}}</p>
+    </header>
