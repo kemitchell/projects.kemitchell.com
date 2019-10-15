@@ -1,0 +1,17 @@
+if [ -z "$1" ]; then
+  echo "Usage: <slug>" >/dev/stderr
+  exit 1
+fi
+
+md="_projects/$1.md"
+
+cat >"$md" <<EOS
+---
+title: 
+description: 
+homepage: 
+tags: []
+---
+EOS
+
+vim "$md"
