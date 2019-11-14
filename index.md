@@ -2,6 +2,8 @@
 layout: default
 ---
 
+<p>In alphabetical order…</p>
+
 <ul class="projects">
   {% assign projects = site.projects | sort: "title" %}
   {% for project in projects %}
