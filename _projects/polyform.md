@@ -1,5 +1,5 @@
 ---
-title: Polyform Project
+title: PolyForm Project
 description: simple, standardized, plain-language software source code licenses
 homepage: https://polyformproject.org
 ---
