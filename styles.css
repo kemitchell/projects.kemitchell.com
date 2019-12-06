@@ -1,3 +1,14 @@
 .tags {
   list-style-type: none;
+  margin: 1rem 0;
+  padding: 0;
+}
+
+.tags li {
+  color: #555;
+  display: inline-block;
+}
+
+.tags li:before {
+  content: '#';
 }
