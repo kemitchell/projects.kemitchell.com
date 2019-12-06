@@ -11,7 +11,8 @@ layout: default
     <a href="{{project.homepage}}">{{project.title}}</a>
     <p class="description">{{project.description}}</p>
     <ul class="tags">
-      {% for tag in project.tags %}
+      {% assign sorted = project.tags | sort %}
+      {% for tag in sorted %}
       <li>{{tag}}</li>
       {% endfor %}
     </ul>
