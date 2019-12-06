@@ -7,6 +7,7 @@
 .tags li {
   color: #555;
   display: inline-block;
+  padding-right: 1ex;
 }
 
 .tags li:before {
