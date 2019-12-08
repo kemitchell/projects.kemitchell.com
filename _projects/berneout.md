@@ -2,5 +2,5 @@
 title: Berneout
 description: an improbable sequence of software licensing experiments
 homepage: https://berneout.org/
-tags: [software, licensing]
+tags: [software license, computer program, law]
 ---
