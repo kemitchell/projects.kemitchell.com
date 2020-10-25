@@ -1,6 +1,6 @@
 ---
 title: Turnstile
-description: simple terms of service for websites
-homepage: https://commonform.org/kemitchell/turnstile/
+description: standard website terms of service
+homepage: https://turnstiletos.com
 tags: [form]
 ---
