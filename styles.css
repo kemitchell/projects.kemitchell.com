@@ -22,6 +22,7 @@ a[href]:hover {
 .projects > li {
   border-radius: 1rem;
   border: 1px solid #777;
+  box-shadow: 2.5px 2.5px 5px #777;
   margin: 0;
   padding: 1rem;
 }
