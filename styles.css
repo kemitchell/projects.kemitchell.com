@@ -3,6 +3,7 @@ body {
 }
 
 a[href] {
+  color: blue;
   text-decoration: none;
 }
 
