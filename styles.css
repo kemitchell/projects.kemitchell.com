@@ -42,3 +42,7 @@ a[href]:hover {
 .tags li:before {
   content: '#';
 }
+
+footer {
+  text-align: right;
+}
