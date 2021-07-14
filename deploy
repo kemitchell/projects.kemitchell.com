@@ -1,3 +1,5 @@
 #!/bin/sh
+set -e
+make
 SITE=projects.kemitchell.com
 exec scp index.html styles.css $SITE:/var/www/$SITE/

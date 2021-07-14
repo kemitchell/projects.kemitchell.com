@@ -1,0 +1,14 @@
+#!/usr/bin/env node
+const spawnSync = require('child_process').spawnSync
+const fs = require('fs')
+
+const data = spawnSync('query', ['projects']).stdout
+const parsed = JSON.parse(data)
+
+const output = { projects: [], date: new Date().toISOString() }
+for (const key in parsed) {
+  output.projects.push(parsed[key])
+}
+
+output.projects.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()))
+fs.writeFileSync('data.json', JSON.stringify(output, null, 2))
